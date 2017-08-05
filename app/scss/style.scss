@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+
 // Colors
 $white: #fff;
 $black: #000;
 $light-gray: #edeeef;
-$brand-gray: #181818;
+$brand-gray: #131313;
 $brand-op-gray: rgba(0,0,0,0.85);
 $brand-green: #626b39;
 $header-op: rgba(0,0,0,0.5);
 
 body {
   margin: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
 }
 
 .navigation-sidebar {
@@ -19,31 +23,63 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 100%;
+  justify-content: space-between;
+  width: 92%;
+  padding: 0 4%;
   height: 70px;
-  background-color: $brand-op-gray;
+  background-color: $brand-gray;
   position: fixed;
   left: 0;
   top: 0;
   z-index: 1;
 
   .logo {
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    margin: 0;
+    display: block;
+    color: $white;
+    text-decoration: none;
 
-    h4 {
-      margin: 0;
-      padding: 0;
-      color: $white;
+    svg {
+      width: 100px;
+      height: auto;
     }
   }
 
-  img {
-    width: 30px;
-    margin: 0 5px 0 0;
+  .menu-btn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    span {
+      display: block;
+      background-color: $white;
+      width: 25px;
+      height: 2px;
+      position: relative;
+
+      &:before {
+        display: block;
+        position: absolute;
+        top: 7px;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: $white;
+      }
+
+      &:after {
+        display: block;
+        position: absolute;
+        bottom: 7px;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: $white;
+      }
+    }
   }
 
   nav {
@@ -77,8 +113,44 @@ header {
   width: 100%;
   background-color: $header-op;
 
+  img {
+    width: 250px;
+    margin-bottom: 10px;
+  }
+
   h1 {
     color: $white;
+    font-size: 2.6em;
+    text-align: center;
+    margin: 0 0 10px 0;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: $white;
+    letter-spacing: 2px;
+  }
+
+  .tele {
+    color: $white;
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-bottom: 50px;
+  }
+
+  .menu-link {
+    display: block;
+    width: 150px;
+    background-color: $white;
+    color: $black;
+    padding: 10px 0;
+    font-size: .8em;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
     text-align: center;
   }
 }
