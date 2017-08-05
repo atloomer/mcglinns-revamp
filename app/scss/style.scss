@@ -302,6 +302,7 @@ header {
     position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     left: 0;
     z-index: -1;
     opacity: .2;
@@ -315,6 +316,7 @@ header {
     font-size: 2em;
     text-align: center;
   }
+
   .title-seperator {
     margin: 0 auto;
   }
@@ -325,11 +327,48 @@ header {
   }
 }
 
-.food-gallery {
-  width: 100%;
-  height: 500px;
+.slider-container {
+  width: 95%;
+  margin: 50px 2.5%;
+  height: auto;
+  padding: 20px 0;
   display: block;
-  z-index: 9999;
+  background-color: $white;
+}
+
+.event-block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  article {
+    width: 95%;
+    margin: 0 2.5%;
+    order: 1;
+
+    h3, h1, h2 {
+      text-align: left;
+    }
+
+    h1 {
+      color: $brand-gray;
+    }
+
+    .title-seperator {
+      margin: 0;
+    }
+  }
+
+  figure {
+    width: 95%;
+    margin: 50px 2.5% 0 2.5%;
+    padding: 0;
+    order: 2;
+
+    img {
+      width: 100%;
+    }
+ }
 }
 
 @media screen and (min-width: 700px) {
@@ -376,6 +415,17 @@ header {
 
     .menu-btn {
       display: none;
+    }
+  }
+
+  .events {
+
+    h1 {
+      font-size: 2.6em;
+    }
+
+    h3 {
+      font-size: 3em;
     }
   }
 
