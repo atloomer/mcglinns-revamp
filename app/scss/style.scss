@@ -327,3 +327,81 @@ header {
   }
 
 }
+
+@media screen and (min-width: 1000px) {
+
+  .hours {
+    width: 90%;
+    padding: 70px 5%;
+
+    h1 {
+      font-size: 2.5em;
+      text-transform: uppercase;
+    }
+
+    h3 {
+      font-size: .8em;
+      font-weight: 300;
+      letter-spacing: 1px;
+    }
+
+    ul {
+      margin: 0;
+      padding: 80px 0;
+      display: flex;
+      flex-direction: row;
+
+
+      li {
+        display: flex;
+        flex-direction: column;
+        width: 14%;
+        padding: 50px 0;
+        font-size: 1.7em;
+
+        &:nth-child(-n+6) {
+          border-right: 1px dotted $hour-borders;
+          border-bottom: none;
+        }
+
+        p.close-at {
+          font-size: 10px;
+          font-weight: 400;
+          margin-top: 10px;
+        }
+      }
+
+      span {
+        margin: 0;
+      }
+
+      span.letter-second {
+        font-size: .7em;
+        margin: 2px 0;
+      }
+
+      span.letter-third {
+        font-size: .5em;
+        margin: 2px 0;
+      }
+
+      span.hours-op {
+        margin: 40px 0;
+        display: flex;
+        flex-direction: column;
+        font-size: .6em;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      span.right-arrow {
+        margin: 10px 0;
+        padding: 0;
+        font-size: 1.5em;
+        font-weight: 300;
+        transform: rotate(90deg);
+      }
+    }
+  }
+
+}
