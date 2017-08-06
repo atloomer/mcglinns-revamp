@@ -95,12 +95,13 @@ h3.cursive {
         display: block;
         text-decoration: none;
         text-transform: uppercase;
-        font-size: 1.2em;
+        font-size: 1em;
         padding: 10px 0;
         font-weight: 700;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         color: $brand-gray;
         width: 100%;
+        font-family: 'Open Sans', sans-serif;
       }
     }
   }
@@ -186,7 +187,7 @@ h3.cursive {
 
   img {
     width: 100%;
-    height: 120vh;
+    height: 135vh;
     object-fit: cover;
     object-position: center;
   }
@@ -214,6 +215,7 @@ header {
     font-size: 2.6em;
     text-align: center;
     margin: 0 0 10px 0;
+    padding-top: 30px;
     letter-spacing: 2px;
     font-weight: 700;
     text-transform: uppercase;
