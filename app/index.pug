@@ -15,6 +15,7 @@ html
     link(rel="manifest" href="favicon/manifest.json")
     link(rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#131313")
     meta(name="theme-color" content="#131313")
+    link(rel="stylesheet" href="css/slick.css")
     link(rel="stylesheet" href="css/style.css")
   body
     a(name="home")
@@ -95,9 +96,28 @@ html
       h3.cursive Vibe with us!
       h1 Upcoming Events
       .title-seperator
+    .food-gallery
+      h3.cursive Let us do the cooking
+      h1 Some of our favorites
+      .title-seperator
+      .gallery
+        figure
+          img(src="img/burger.jpg")
+        figure
+          img(src="img/salad.jpg")
+        figure
+          img(src="img/salmon.jpg")
+        figure
+          img(src="img/chicken.jpg")
+        figure
+          img(src="img/sweets.jpg")
+        figure
+          img(src="img/ribs.jpg")
           
     
     script(src="https://code.jquery.com/jquery-2.2.4.min.js")
+    script(src="js/slick.min.js")
     script(src="js/index.js")
+    script(src="js/init-slick.js")
     script(src="js/scrollme.min.js")
     script(src="js/local.js")
