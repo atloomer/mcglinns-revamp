@@ -17,6 +17,7 @@ html
     meta(name="theme-color" content="#131313")
     link(rel="stylesheet" href="css/slick.css")
     link(rel="stylesheet" href="css/style.css")
+    link(rel="stylesheet" href="chocolat/css/chocolat.css")
   body
     a(name="home")
     .navigation-sidebar
@@ -100,23 +101,24 @@ html
       h3.cursive Let us do the cooking
       h1 Some of our favorites
       .title-seperator
-      .gallery
-        figure
+      .gallery.chocolat-parent
+        a.chocolat-image(href="img/burger.jpg")
           img(src="img/burger.jpg")
-        figure
+        a.chocolat-image(href="img/salad.jpg")
           img(src="img/salad.jpg")
-        figure
+        a.chocolat-image(href="img/salmon.jpg")
           img(src="img/salmon.jpg")
-        figure
+        a.chocolat-image(href="img/chicken.jpg")
           img(src="img/chicken.jpg")
-        figure
+        a.chocolat-image(href="img/sweets.jpg")
           img(src="img/sweets.jpg")
-        figure
+        a.chocolat-image(href="img/ribs.jpg")
           img(src="img/ribs.jpg")
           
     
     script(src="https://code.jquery.com/jquery-2.2.4.min.js")
     script(src="js/slick.min.js")
+    script(src="chocolat/js/jquery.chocolat.js")
     script(src="js/index.js")
     script(src="js/init-slick.js")
     script(src="js/scrollme.min.js")
