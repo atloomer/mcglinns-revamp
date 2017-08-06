@@ -40,7 +40,7 @@
         </ul>
       </nav>
     </div>
-    <div class="site-background"><img src="img/temp-header.jpg"/></div>
+    <div class="site-background scrollme"><img src="img/temp-header.jpg" data-when="exit" data-from="1" data-to="0" data-translatey="-150" class="animateme"/></div>
     <header>
       <h1>McGlinn's<br> Public House</h1><img src="img/seperator.png"/>
       <p>111 ORONDO AVE, WENATCHEE, WA</p><a href="tel:509-663-9073" class="tele"> 509.663.9073</a><a href="#" class="menu-link">View Menu</a>
@@ -73,11 +73,11 @@
         </li>
       </ul>
     </div><a name="about"></a>
-    <div class="about">
-      <figure><img src="img/mcg-building.jpg" alt="McGlinn's Building"/></figure>
-      <article>
-        <h3 class="cursive">Embrace</h3>
-        <h1>The lifestyle</h1>
+    <div class="about scrollme">
+      <figure data-when="enter" data-from="1" data-to="0" data-translatex="-80" easing="easein" class="animateme"><img src="img/mcg-building.jpg" alt="McGlinn's Building"/></figure>
+      <article data-when="enter" data-from="1" data-to="0" data-translatex="100" easing="easein" class="animateme">
+        <h3 class="cursive"> Embrace</h3>
+        <h1> The lifestyle</h1>
         <div class="title-seperator"></div>
         <p>We love what we do here at McGlinn’s. Our goal is about more than just crafting good food. We aim to connect by creating relationships with people and local businesses to provide you with the freshest ingredients possible. We want to bring you the familiar atmosphere of sitting on the back porch with good friends, grilling burgers, and sipping on a cold beer, or the first bite of charred marshmallow s’mor es made over the campfire on a cool summer night. We’re here to pr ovide you with the nutrients you need to get out, explore, connect with others, and take the time to savor life.</p>
       </article>
@@ -86,21 +86,10 @@
       <h3 class="cursive">Vibe with us!</h3>
       <h1>Upcoming Events</h1>
       <div class="title-seperator"></div>
-      <div class="slider-container">
-        <div class="event-block">
-          <figure><img src="events/jason-kert.jpg"/></figure>
-          <article>
-            <h3 class="cursive">Live music</h3>
-            <h1>Jason Kertson</h1>
-            <div class="title-seperator"></div>
-            <h2 class="event-time">Friday, August 25 - 7:30pm</h2>
-            <p>Parklet Vibes tonight and tomorrow night with Seattle musical guest Jason Kertson at 7:30pm. Come get some good vibes and good food.</p><a class="artist-link">Listen Now</a>
-          </article>
-        </div>
-      </div>
     </div>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/scrollme.min.js"></script>
     <script src="js/local.js"></script>
   </body>
 </html>

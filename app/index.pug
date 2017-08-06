@@ -52,8 +52,8 @@ html
             a(href="#") Events
           li
             a(href="#") Contact
-    .site-background
-      img(src="img/temp-header.jpg")
+    .site-background(class="scrollme")
+      img(src="img/temp-header.jpg" class="animateme" data-when="exit" data-from="1" data-to="0" data-translatey="-150")
     header
       h1 McGlinn's<br> Public House
       img(src="img/seperator.png")
@@ -81,31 +81,21 @@ html
         li  s#[span.letter-second a]#[span.letter-third t]#[span.hours-op 11:00am#[span.right-arrow &#xbb;]11:30pm]
           p.close-at  Close at Midnight
     a(name="about")
-    .about
-      figure
+    .about(class="scrollme")
+      figure(class="animateme" data-when="enter" data-from="1" data-to="0" data-translatex="-80" easing="easein")
         img(src="img/mcg-building.jpg" alt="McGlinn's Building")
-      article
-        h3.cursive Embrace
-        h1 The lifestyle
+      article(class="animateme" data-when="enter" data-from="1" data-to="0" data-translatex="100" easing="easein")
+        h3.cursive  Embrace
+        h1  The lifestyle
         .title-seperator
         p We love what we do here at McGlinn’s. Our goal is about more than just crafting good food. We aim to connect by creating relationships with people and local businesses to provide you with the freshest ingredients possible. We want to bring you the familiar atmosphere of sitting on the back porch with good friends, grilling burgers, and sipping on a cold beer, or the first bite of charred marshmallow s’mor es made over the campfire on a cool summer night. We’re here to pr ovide you with the nutrients you need to get out, explore, connect with others, and take the time to savor life.
     .events
       h3.cursive Vibe with us!
       h1 Upcoming Events
       .title-seperator
-      .slider-container
-        .event-block
-          figure
-            img(src="events/jason-kert.jpg")
-          article
-            h3.cursive Live music
-            h1 Jason Kertson
-            .title-seperator
-            h2.event-time Friday, August 25 - 7:30pm
-            p Parklet Vibes tonight and tomorrow night with Seattle musical guest Jason Kertson at 7:30pm. Come get some good vibes and good food.
-            a.artist-link Listen Now
           
     
     script(src="https://code.jquery.com/jquery-2.2.4.min.js")
     script(src="js/index.js")
+    script(src="js/scrollme.min.js")
     script(src="js/local.js")
