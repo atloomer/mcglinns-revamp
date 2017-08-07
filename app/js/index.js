@@ -37,7 +37,8 @@ $(function() {
 $('.event-slider').slick({
   arrows: true,
   draggable: false,
-  infinite: false
+  infinite: false,
+  adaptiveHeight: true
 });
 
 // COPYRIGHT AUTO UPDATE

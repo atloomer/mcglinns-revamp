@@ -650,6 +650,8 @@ footer {
   justify-content: center;
   flex-direction: column;
   padding: 20px 0;
+  position: absolute;
+  background-color: $brand-gray;
 
   .to-top {
     transform: rotate(-90deg);
@@ -1091,6 +1093,19 @@ footer {
       img {
         width: 100%;
       }
+    }
+  }
+
+}
+
+
+@media screen and (min-width: 2500px) {
+
+  .event-background {
+
+    img {
+      max-width: 150%;
+      max-height: 100vh;
     }
   }
 
