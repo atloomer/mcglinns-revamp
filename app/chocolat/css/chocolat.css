@@ -22,7 +22,7 @@
     display: none;
     left:0;
     top:0;
-    z-index:16;
+    z-index:99999;
     color: #fff;
 }
 .chocolat-zoomable .chocolat-img{
