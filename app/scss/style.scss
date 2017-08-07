@@ -375,7 +375,7 @@ header {
   overflow: hidden;
 
   img {
-    width: 250%;
+    width: 300%;
   }
 }
 
@@ -467,21 +467,28 @@ header {
 }
 
 button.slick-prev.slick-arrow {
+  width: 30px;
+  height: 30px;
   position: absolute;
   left: 0;
   top: 50%;
   font-size: 0;
   border: 0;
   padding: 0;
+  z-index: 999;
+  cursor: pointer;
 }
 
 button.slick-next.slick-arrow {
+  width: 30px;
+  height: 30px;
   position: absolute;
   right: 0;
   top: 50%;
   font-size: 0;
   border: 0;
   padding: 0;
+  cursor: pointer;
 }
 
 .food-gallery {
@@ -710,7 +717,7 @@ footer {
   .event-background {
 
     img {
-      width: 150%;
+      width: 100%;
     }
   }
 
@@ -896,6 +903,53 @@ footer {
     .to-top {
       font-size: 2em;
       margin-bottom: 20px;
+    }
+  }
+
+}
+
+@media screen and (min-width: 900px) {
+
+  .event-background {
+
+    img {
+      height: 70%;
+    }
+  }
+
+  .events {
+    padding: 100px 0;
+
+    .title-seperator {
+      margin: 0 auto;
+    }
+  }
+
+  .event.slick-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .event-slider {
+    width: 90%;
+    background-color: $white;
+    flex-direction: row;
+
+    figure {
+      display: inline-block;
+      width: 35%;
+      margin: 0 5%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    article {
+      display: inline-block;
+      width: 40%;
+      padding: 0;
     }
   }
 

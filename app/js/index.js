@@ -34,7 +34,9 @@ $(function() {
 });
 
 // SLIDER
-$('.event-slider').slick();
+$('.event-slider').slick({
+  arrows: true
+});
 
 // COPYRIGHT AUTO UPDATE
 var today = new Date();
