@@ -124,7 +124,7 @@ h3.cursive {
   position: fixed;
   left: 0;
   top: 0;
-  z-index: 1;
+  z-index: 9999;
 
   .logo {
     display: block;
@@ -477,6 +477,12 @@ button.slick-prev.slick-arrow {
   padding: 0;
   z-index: 999;
   cursor: pointer;
+  background-color: $brand-green;
+  background-image: url('../img/left-arrow.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
 }
 
 button.slick-next.slick-arrow {
@@ -489,6 +495,12 @@ button.slick-next.slick-arrow {
   border: 0;
   padding: 0;
   cursor: pointer;
+  background-color: $brand-green;
+  background-image: url('../img/right-arrow.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
 }
 
 .food-gallery {
