@@ -366,11 +366,28 @@ header {
   }
 }
 
+.event-background {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+  }
+}
+
 .events {
   width: 100%;
+  height: 100%;
   padding: 50px 0;
   position: relative;
   background-color: $brand-op-gray;
+  position: relative;
+  overflow: hidden;
 
   h1 {
     text-transform: uppercase;
@@ -507,11 +524,12 @@ header {
   ul {
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 30px 0 0 0;
+    border-top: 1px dotted $hour-borders;
 
     li {
       list-style-type: none;
-      margin: 30px 0;
+      margin: 20px 0;
       font-size: 1em;
       font-family: 'Open Sans', sans-serif;
 
@@ -635,6 +653,47 @@ footer {
     }
   }
 
+  .contact {
+
+    h1 {
+      font-size: 2.6em;
+    }
+
+    h3 {
+      font-size: 3em;
+    }
+
+    .email-link {
+      font-size: .9em;
+    }
+  }
+
+  .contact-info {
+    width: 90%;
+    margin: 50px 2.5%;
+
+    ul {
+
+      li {
+        list-style-type: none;
+        margin: 20px 0;
+        font-size: 1em;
+        font-family: 'Open Sans', sans-serif;
+
+
+        img {
+          width: 20px;
+          margin: 0 20px 0 0;
+        }
+
+        a {
+          text-decoration: none;
+          color: $black;
+        }
+      }
+    }
+  }
+
 }
 
 @media screen and (min-width: 800px) {
@@ -714,6 +773,47 @@ footer {
     font-size: .8em;
     letter-spacing: 2px;
     font-weight: 700;
+  }
+
+  .contact {
+    flex-direction: row;
+    width: 80%;
+    padding: 120px 10%;
+    justify-content: space-around;
+    align-items: center;
+
+    .email-link {
+      letter-spacing: 3px;
+      font-size: .8em;
+    }
+  }
+
+  .contact-main {
+    width: 45%;
+  }
+
+  .contact-info {
+    width: auto;
+    margin: 50px 2.5%;
+
+    ul {
+      border-top: none;
+
+      li {
+
+        img {
+          width: 15px;
+        }
+      }
+    }
+  }
+
+  footer {
+
+    .to-top {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
   }
 
 }
