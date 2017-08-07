@@ -441,6 +441,7 @@ header {
       font-weight: 300;
       letter-spacing: 1px;
       margin: 0;
+      text-transform: uppercase;
     }
 
     p {
@@ -947,6 +948,8 @@ footer {
     width: 90%;
     background-color: $white;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
     figure {
       display: inline-block;

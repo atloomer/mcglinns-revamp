@@ -35,7 +35,9 @@ $(function() {
 
 // SLIDER
 $('.event-slider').slick({
-  arrows: true
+  arrows: true,
+  draggable: false,
+  infinite: false
 });
 
 // COPYRIGHT AUTO UPDATE
