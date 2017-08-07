@@ -395,7 +395,7 @@ header {
   width: 100%;
   padding: 50px 0;
   position: relative;
-  background-color: $white;
+  background-color: $light-gray;
 
   h1 {
     text-transform: uppercase;
@@ -434,6 +434,134 @@ header {
 
     img {
       width: 100%;
+    }
+  }
+}
+
+.link-to-menu {
+  margin: 0 auto;
+  display: block;
+  width: 150px;
+  background-color: $brand-gray;
+  color: $white;
+  padding: 10px 0;
+  font-size: .8em;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  padding: 50px 2.5%;
+  position: relative;
+  background-color: $white;
+
+  h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: $brand-gray;
+    margin: 0 0 10px 0;
+    font-size: 2em;
+  }
+
+  .title-seperator {
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 2em;
+    text-align: left;
+  }
+
+  p {
+    margin: 30px 0;
+    font-size: 1em;
+    line-height: 170%;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .email-link {
+    margin: 0;
+    display: block;
+    width: 150px;
+    background-color: $brand-gray;
+    color: $white;
+    padding: 10px 0;
+    font-size: .8em;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+.contact-info {
+  width: 90%;
+  margin: 50px 2.5%;
+
+  ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style-type: none;
+      margin: 30px 0;
+      font-size: 1em;
+      font-family: 'Open Sans', sans-serif;
+
+
+      img {
+        width: 20px;
+        margin: 0 20px 0 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: $black;
+      }
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 0;
+
+  .to-top {
+    transform: rotate(-90deg);
+    text-decoration: none;
+    color: $light-gray;
+    font-size: 3em;
+    padding: 10px 0;
+    font-weight: 300;
+  }
+
+  p {
+    font-size: .7em;
+    text-transform: uppercase;
+    color: $light-gray;
+    letter-spacing: 1px;
+  }
+}
+
+.social-media {
+  padding: 0 0 20px 0;
+
+  a {
+    padding: 10px;
+
+    img {
+      width: 30px;
     }
   }
 }
@@ -580,6 +708,12 @@ header {
         width: 100%;
       }
     }
+  }
+
+  .link-to-menu {
+    font-size: .8em;
+    letter-spacing: 2px;
+    font-weight: 700;
   }
 
 }

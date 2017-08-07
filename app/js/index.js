@@ -8,6 +8,10 @@ $('.close-btn').on('click', function() {
   $(this).removeClass('open-sidebar');
 });
 
+$('.mobile-links').on('click', function(){
+  $('.navigation-sidebar').removeClass('open-sidebar');
+});
+
 // Chocolat image gallery
 $('.chocolat-parent').Chocolat();
 
@@ -28,3 +32,9 @@ $(function() {
     }
   });
 });
+
+// COPYRIGHT AUTO UPDATE
+var today = new Date();
+var year = today.getFullYear();
+console.log(year);
+$('.year').text(year);
