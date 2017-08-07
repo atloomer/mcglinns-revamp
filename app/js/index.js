@@ -33,6 +33,9 @@ $(function() {
   });
 });
 
+// SLIDER
+$('.event-slider').slick();
+
 // COPYRIGHT AUTO UPDATE
 var today = new Date();
 var year = today.getFullYear();

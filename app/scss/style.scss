@@ -369,21 +369,20 @@ header {
 .event-background {
   display: block;
   width: 100%;
-  height: 100%;
   object-fit: cover;
   object-position: center;
   position: absolute;
   overflow: hidden;
 
   img {
-    width: 100%;
+    width: 300%;
   }
 }
 
 .events {
   width: 100%;
-  height: 100%;
   padding: 50px 0;
+  height: auto;
   position: relative;
   background-color: $brand-op-gray;
   position: relative;
@@ -405,6 +404,65 @@ header {
   h3 {
     font-size: 2em;
     text-align: center;
+  }
+}
+
+.event-slider {
+  width: 90%;
+  margin: 50px 5%;
+  background-color: $white;
+
+  figure {
+    width: 80%;
+    margin: 0 10%;
+    padding: 50px 0;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  article {
+    width: 85%;
+    padding: 0 10% 50px 10%;
+
+    h3 {
+      text-align: left;
+    }
+
+    h1 {
+      text-align: left;
+      color: $brand-op-gray;
+      margin: 0;
+    }
+
+    h4 {
+      text-align: left;
+      font-weight: 300;
+      letter-spacing: 1px;
+      margin: 0;
+    }
+
+    p {
+      margin: 30px 0;
+      font-size: 1em;
+      line-height: 170%;
+      font-weight: 400;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .event-block-link {
+      display: block;
+      width: 150px;
+      background-color: $brand-gray;
+      color: $white;
+      padding: 10px 0;
+      font-size: .8em;
+      text-decoration: none;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: center;
+    }
   }
 }
 
