@@ -375,7 +375,7 @@ header {
   overflow: hidden;
 
   img {
-    width: 300%;
+    width: 250%;
   }
 }
 
@@ -464,6 +464,24 @@ header {
       text-align: center;
     }
   }
+}
+
+button.slick-prev.slick-arrow {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  font-size: 0;
+  border: 0;
+  padding: 0;
+}
+
+button.slick-next.slick-arrow {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  font-size: 0;
+  border: 0;
+  padding: 0;
 }
 
 .food-gallery {
@@ -686,6 +704,13 @@ footer {
 
     .menu-btn {
       display: none;
+    }
+  }
+
+  .event-background {
+
+    img {
+      width: 150%;
     }
   }
 
