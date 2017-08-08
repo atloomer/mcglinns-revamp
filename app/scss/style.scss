@@ -723,13 +723,6 @@ footer {
   }
 }
 
-.menu-temp {
-  display: block;
-  background-color: $white;
-  width: 100%;
-  height: 700px;
-}
-
 @media screen and (min-width: 700px) {
 
   .nav-bar {
@@ -862,14 +855,6 @@ footer {
       font-size: 2.6em;
     }
   }
-
-  .menu-temp {
-    display: block;
-    background-color: $white;
-    width: 100%;
-    height: 700px;
-  }
-
 }
 
 @media screen and (min-width: 800px) {
