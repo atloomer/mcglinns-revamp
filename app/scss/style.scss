@@ -391,7 +391,6 @@ header {
   height: auto;
   position: relative;
   background-color: $background-op-gray;
-  position: relative;
   overflow: hidden;
 
   h1 {
@@ -573,6 +572,46 @@ button.slick-next.slick-arrow {
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
+}
+
+.gift-card-check {
+  width: 90%;
+  padding: 50px 5%;
+  height: auto;
+  background-color: $black;
+  overflow: hidden;
+
+  h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: $light-gray;
+    margin: 0 0 10px 0;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .title-seperator {
+    margin: 0 auto;
+  }
+
+  h3 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  a {
+    margin: 60px auto 0 auto;
+    display: block;
+    width: 150px;
+    background-color: $white;
+    color: $brand-gray;
+    padding: 10px 0;
+    font-size: .8em;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
 }
 
 .contact {
