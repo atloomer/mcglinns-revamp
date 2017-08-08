@@ -6,6 +6,7 @@ $white: #fff;
 $black: #000;
 $light-gray: #edeeef;
 $brand-gray: #131313;
+$background-op-gray: rgba(0,0,0,0.75);
 $brand-op-gray: rgba(0,0,0,0.85);
 $hour-borders: rgba(0,0,0,0.4);
 $brand-green: #626b39;
@@ -384,7 +385,7 @@ header {
   padding: 50px 0;
   height: auto;
   position: relative;
-  background-color: $brand-op-gray;
+  background-color: $background-op-gray;
   position: relative;
   overflow: hidden;
 
