@@ -578,8 +578,9 @@ button.slick-next.slick-arrow {
   width: 90%;
   padding: 50px 5%;
   height: auto;
-  background-color: $black;
+  background-color: $brand-gray;
   overflow: hidden;
+  position: relative;
 
   h1 {
     text-transform: uppercase;
@@ -587,20 +588,20 @@ button.slick-next.slick-arrow {
     color: $light-gray;
     margin: 0 0 10px 0;
     font-size: 2em;
-    text-align: center;
+    text-align: left;
   }
 
   .title-seperator {
-    margin: 0 auto;
+    margin: 0;
   }
 
   h3 {
     font-size: 2em;
-    text-align: center;
+    text-align: left;
   }
 
   a {
-    margin: 60px auto 0 auto;
+    margin: 60px 0 0 0;
     display: block;
     width: 150px;
     background-color: $white;
@@ -846,6 +847,41 @@ footer {
 
     h3 {
       font-size: 3em;
+    }
+  }
+
+  .gift-card-check {
+    width: 80%;
+    padding: 70px 10%;
+
+    h1 {
+      font-size: 2.6em;
+      text-align: center;
+      width: 60%;
+      margin: 15px auto;
+    }
+
+    .title-seperator {
+      margin: 0 auto;
+    }
+
+    h3 {
+      font-size: 3em;
+      text-align: center;
+    }
+
+    a {
+      margin: 60px auto 0 auto;
+      display: block;
+      width: 150px;
+      background-color: $white;
+      color: $brand-gray;
+      padding: 10px 0;
+      font-size: .8em;
+      text-decoration: none;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: center;
     }
   }
 
