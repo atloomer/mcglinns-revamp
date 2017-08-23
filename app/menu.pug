@@ -60,20 +60,26 @@ html
     .tabs
       ul
         li
-          a(href="#tab1") Lunch &amp; Dinner
+          a(href="#tab1") Food
         li
           a(href="#tab2") Beverages
         li
           a(href="#tab3") Breakfast
-      #tab1
-        .container-within-tab
+      #tab1.tab-block
+        .tab-title
           h1  Lunch &amp; Dinner
-      #tab2
+          .title-seperator
         .container-within-tab
-          h1 Beverages
-      #tab3
+      #tab2.tab-block
+        .tab-title
+          h1  Beverages
+          .title-seperator
         .container-within-tab
+      #tab3.tab-block
+        .tab-title
           h1  Breakfast
+          .title-seperator
+        .container-within-tab
         
             
     script(src="https://code.jquery.com/jquery-2.2.4.min.js")
