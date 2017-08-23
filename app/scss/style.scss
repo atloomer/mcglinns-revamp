@@ -823,9 +823,10 @@ footer {
 }
 
 .tab-block {
+  width: 90%;
   background-color: $white;
   display: block;
-  padding: 30px 2.5% 50px 2.5%;
+  padding: 30px 5% 50px 5%;
 
   h1 {
     text-transform: uppercase;
@@ -834,6 +835,55 @@ footer {
     margin: 0 0 10px 0;
     font-size: 2.2em;
     text-align: left;
+  }
+}
+
+.container-within-tab {
+  display: flex;
+  flex-direction: column;
+
+  ul.menu-items-flex {
+    display: block;
+    width: 100%;
+
+    h3.cursive {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    li {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      justify-content: space-between;
+      border-top: 1px dotted $hour-borders;
+
+      h4 {
+        font-size: 1.5em;
+        margin: 10px 0;
+      }
+
+      .item-price {
+        padding: 0 10px 0 0;
+      }
+
+      .item-price h4 {
+        color: $brand-op-gray;
+        opacity: .8;
+      }
+
+      p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color: $brand-op-gray;
+        margin: 10px 0 20px 0;
+        opacity: .8;
+        font-size: 1.2em;
+      }
+    }
   }
 }
 
