@@ -57,9 +57,28 @@ html
       img(src="img/temp-header.jpg" class="animateme" data-when="exit" data-from="1" data-to="0" data-translatey="-100")
     .menu-header
       h1  Menu
-    
+    .tabs
+      ul
+        li
+          a(href="#tab1") Lunch &amp; Dinner
+        li
+          a(href="#tab2") Beverages
+        li
+          a(href="#tab3") Breakfast
+      #tab1
+        .container-within-tab
+          h1  Lunch &amp; Dinner
+      #tab2
+        .container-within-tab
+          h1 Beverages
+      #tab3
+        .container-within-tab
+          h1  Breakfast
+        
             
     script(src="https://code.jquery.com/jquery-2.2.4.min.js")
+    script(src="tabslet/tabslet.js")
+    script(src="tabslet/init-tabslet.js")
     script(src="js/scrollme.min.js")
     script(src="js/index.js")
     script(src="js/local.js")
