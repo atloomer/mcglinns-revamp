@@ -17,7 +17,6 @@ html
     meta(name="theme-color" content="#131313")
     link(rel="stylesheet" href="css/style.css")
   body
-    a(name="top")
     .navigation-sidebar
       .close-btn
         span
@@ -54,6 +53,7 @@ html
             a.smoothScroll(href="http://mcglinns.com/#events") Events
           li
             a.smoothScroll(href="http://mcglinns.com/#contact") Contact
+    a(name="up")
     .menu-background(class="scrollme")
       img(src="img/temp-header.jpg" class="animateme" data-when="exit" data-from="1" data-to="0" data-translatey="-100")
     .menu-header
@@ -799,13 +799,13 @@ html
                 h4  KID'S BREAKFAST
                 p one egg, one bacon, one toast
     footer
-      a.smoothScroll.to-top(href="#top") &#xbb;
+      a.smoothScroll.to-top(href="#up") &#xbb;
       .social-media
         a(href="https://www.facebook.com/mcglinns/" target="_blank")
           img(src="img/fbicon.png")
         a(href="https://www.instagram.com/mcglinns/" target="_blank")
           img(src="img/instaicon.png")
-      p   	&copy; McGlinn's Public House #[span.year XXXX]. All Rights Reserved.
+      p   	&copy; McGlinn's Public House #[span.year  XXXX]. All Rights Reserved.
         
             
     script(src="https://code.jquery.com/jquery-2.2.4.min.js")
