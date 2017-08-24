@@ -847,8 +847,15 @@ footer {
     width: 100%;
 
     h3.cursive {
-      font-size: 2.5em;
+      font-size: 3em;
       margin-bottom: 10px;
+    }
+
+    p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: .8em;
+      font-weight: 600;
+      opacity: .7;
     }
 
     li {
