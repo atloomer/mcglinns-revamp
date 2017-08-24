@@ -825,8 +825,10 @@ footer {
 .tab-block {
   width: 90%;
   background-color: $white;
-  display: block;
+  display: flex;
+  flex-direction: column;
   padding: 30px 5% 50px 5%;
+  align-items: flex-start;
 
   h1 {
     text-transform: uppercase;
@@ -1291,6 +1293,36 @@ footer {
       display: inline-block;
       width: 40%;
       padding: 0;
+    }
+  }
+
+  .tab-block {
+    align-items: center;
+
+    .tab-title {
+      padding: 50px 0;
+
+      h1 {
+        font-size: 2.6em;
+      }
+
+      .title-seperator {
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .container-within-tab {
+    display: inline-block;
+    column-width: 30em;
+    column-gap: 5em;
+    width: 90%;
+    padding: 0 5%;
+
+    ul.menu-items-flex {
+      width: 100%;
+      break-inside: avoid;
+      display: inline-block;
     }
   }
 
