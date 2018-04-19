@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
-@import url("https://fonts.googleapis.com/css?family=Dancing+Script:700");
-// Colors
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script:700"); // Colors
 $white: #fff;
 $black: #000;
 $light-gray: #edeeef;
@@ -47,7 +46,7 @@ h3.cursive {
   z-index: 99999;
   right: -85%;
   overflow-y: scroll;
-  transition: all .3s ease-Out;
+  transition: all 0.3s ease-Out;
 
   .close-btn {
     display: flex;
@@ -222,7 +221,7 @@ header {
     color: $white;
     font-size: 2.6em;
     text-align: center;
-    margin: 0 0 10px 0;
+    margin: 0 0 10px;
     padding-top: 30px;
     letter-spacing: 2px;
     font-weight: 700;
@@ -251,7 +250,7 @@ header {
     background-color: $white;
     color: $black;
     padding: 10px 0;
-    font-size: .8em;
+    font-size: 0.8em;
     text-decoration: none;
     font-weight: 700;
     text-transform: uppercase;
@@ -268,7 +267,7 @@ header {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: $brand-op-gray;
-    margin: 0 0 15px 0;
+    margin: 0 0 15px;
     text-align: center;
   }
 
@@ -277,8 +276,8 @@ header {
   }
 
   h3 {
-    font-size: .8em;
-    margin: 25px 0 0 0;
+    font-size: 0.8em;
+    margin: 25px 0 0;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
@@ -305,10 +304,10 @@ header {
       }
 
       p.close-at {
-        font-size: .6em;
+        font-size: 0.6em;
         font-weight: 400;
         font-family: 'Open Sans', sans-serif;
-        margin: 10px 0 0 0;
+        margin: 10px 0 0;
       }
     }
 
@@ -342,7 +341,7 @@ header {
       text-transform: uppercase;
       letter-spacing: 2px;
       color: $brand-op-gray;
-      margin: 0 0 10px 0;
+      margin: 0 0 10px;
       font-size: 2.6em;
       text-align: left;
     }
@@ -398,7 +397,7 @@ header {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: $light-gray;
-    margin: 0 0 10px 0;
+    margin: 0 0 10px;
     font-size: 2em;
     text-align: center;
   }
@@ -434,7 +433,7 @@ header {
 
   article {
     width: 85%;
-    padding: 0 10% 50px 10%;
+    padding: 0 10% 50px;
 
     h3 {
       text-align: left;
@@ -468,7 +467,7 @@ header {
       background-color: $brand-gray;
       color: $white;
       padding: 10px 0;
-      font-size: .8em;
+      font-size: 0.8em;
       text-decoration: none;
       font-weight: 700;
       text-transform: uppercase;
@@ -490,7 +489,7 @@ button.slick-prev.slick-arrow {
   z-index: 999;
   cursor: pointer;
   background-color: $brand-green;
-  background-image: url('../img/left-arrow.png');
+  background-image: url("../img/left-arrow.png");
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
@@ -509,12 +508,27 @@ button.slick-next.slick-arrow {
   padding: 0;
   cursor: pointer;
   background-color: $brand-green;
-  background-image: url('../img/right-arrow.png');
+  background-image: url("../img/right-arrow.png");
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
   outline: none;
   border-radius: 0;
+}
+
+a.view-full-events-link {
+  display: block;
+  width: 150px;
+  height: 40px;
+  background-color: $white;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 40px;
+  color: $brand-gray;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.8em;
 }
 
 .food-gallery {
@@ -527,7 +541,7 @@ button.slick-next.slick-arrow {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: $brand-gray;
-    margin: 0 0 10px 0;
+    margin: 0 0 10px;
     font-size: 2em;
     text-align: center;
   }
@@ -571,7 +585,7 @@ button.slick-next.slick-arrow {
   background-color: $brand-gray;
   color: $white;
   padding: 10px 0;
-  font-size: .8em;
+  font-size: 0.8em;
   text-decoration: none;
   font-weight: 700;
   text-transform: uppercase;
@@ -590,7 +604,7 @@ button.slick-next.slick-arrow {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: $light-gray;
-    margin: 0 0 10px 0;
+    margin: 0 0 10px;
     font-size: 2em;
     text-align: left;
   }
@@ -605,13 +619,13 @@ button.slick-next.slick-arrow {
   }
 
   a {
-    margin: 60px 0 0 0;
+    margin: 60px 0 0;
     display: block;
     width: 150px;
     background-color: $white;
     color: $brand-gray;
     padding: 10px 0;
-    font-size: .8em;
+    font-size: 0.8em;
     text-decoration: none;
     font-weight: 700;
     text-transform: uppercase;
@@ -632,7 +646,7 @@ button.slick-next.slick-arrow {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: $brand-gray;
-    margin: 0 0 10px 0;
+    margin: 0 0 10px;
     font-size: 2em;
   }
 
@@ -660,7 +674,7 @@ button.slick-next.slick-arrow {
     background-color: $brand-gray;
     color: $white;
     padding: 10px 0;
-    font-size: .8em;
+    font-size: 0.8em;
     text-decoration: none;
     font-weight: 700;
     text-transform: uppercase;
@@ -675,7 +689,7 @@ button.slick-next.slick-arrow {
   ul {
     width: 100%;
     margin: 0;
-    padding: 30px 0 0 0;
+    padding: 30px 0 0;
     border-top: 1px dotted $hour-borders;
 
     li {
@@ -683,7 +697,6 @@ button.slick-next.slick-arrow {
       margin: 20px 0;
       font-size: 1em;
       font-family: 'Open Sans', sans-serif;
-
 
       img {
         width: 20px;
@@ -718,7 +731,7 @@ footer {
   }
 
   p {
-    font-size: .7em;
+    font-size: 0.7em;
     text-transform: uppercase;
     color: $light-gray;
     letter-spacing: 1px;
@@ -726,7 +739,7 @@ footer {
 }
 
 .social-media {
-  padding: 0 0 20px 0;
+  padding: 0 0 20px;
 
   a {
     padding: 10px;
@@ -769,7 +782,7 @@ footer {
     color: $white;
     font-size: 2em;
     text-align: center;
-    margin: 30px 0 25px 0;
+    margin: 30px 0 25px;
     padding-top: 30px;
     letter-spacing: 2px;
     font-weight: 700;
@@ -783,7 +796,7 @@ footer {
     background-color: $white;
     color: $black;
     padding: 10px 0;
-    font-size: .8em;
+    font-size: 0.8em;
     text-decoration: none;
     font-weight: 700;
     text-transform: uppercase;
@@ -798,7 +811,7 @@ footer {
   justify-content: center;
   width: 90%;
   margin: 0;
-  padding: 30px 5% 0 5%;
+  padding: 30px 5% 0;
   background-color: $light-gray;
 
   h2 {
@@ -833,7 +846,7 @@ footer {
     flex-direction: column;
     width: 100%;
     list-style-type: none;
-    padding: 50px 0 20px 0;
+    padding: 50px 0 20px;
     margin: 0;
     justify-content: center;
     align-items: center;
@@ -875,14 +888,14 @@ footer {
   background-color: $white;
   display: flex;
   flex-direction: column;
-  padding: 30px 5% 50px 5%;
+  padding: 30px 5% 50px;
   align-items: flex-start;
 
   h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: $brand-gray;
-    margin: 0 0 10px 0;
+    margin: 0 0 10px;
     font-size: 2.2em;
     text-align: left;
   }
@@ -903,9 +916,9 @@ footer {
 
     p {
       font-family: 'Open Sans', sans-serif;
-      font-size: .8em;
+      font-size: 0.8em;
       font-weight: 600;
-      opacity: .7;
+      opacity: 0.7;
     }
 
     li {
@@ -929,7 +942,7 @@ footer {
 
       .item-price h4 {
         color: $brand-op-gray;
-        opacity: .8;
+        opacity: 0.8;
         font-size: 1.2em;
       }
 
@@ -937,25 +950,22 @@ footer {
         font-family: 'Open Sans', sans-serif;
         font-weight: 400;
         color: $brand-op-gray;
-        margin: 10px 0 20px 0;
-        opacity: .8;
+        margin: 10px 0 20px;
+        opacity: 0.8;
         font-size: 1.2em;
       }
     }
   }
 }
-
 @media screen and (min-width: 350px) {
-
   .tabs {
-
     ul {
       flex-direction: row;
       padding-bottom: 10px;
 
       li {
-        font-size: .8em;
-        letter-spacing: .5px;
+        font-size: 0.8em;
+        letter-spacing: 0.5px;
         margin: 0 2px;
         width: 30%;
 
@@ -966,9 +976,7 @@ footer {
     }
   }
 }
-
 @media screen and (min-width: 700px) {
-
   .nav-bar {
     background-color: $brand-op-gray;
 
@@ -994,12 +1002,12 @@ footer {
             align-items: center;
             height: 70px;
             color: $white;
-            font-size: .8em;
+            font-size: 0.8em;
             text-transform: uppercase;
             text-decoration: none;
             letter-spacing: 1px;
             padding: 0 5px;
-            transition: all .2s ease-Out;
+            transition: all 0.2s ease-Out;
             font-family: 'Open Sans', sans-serif;
             font-weight: 700;
 
@@ -1017,14 +1025,12 @@ footer {
   }
 
   .event-background {
-
     img {
       width: 200%;
     }
   }
 
   .events {
-
     h1 {
       font-size: 2.6em;
     }
@@ -1035,7 +1041,6 @@ footer {
   }
 
   .food-gallery {
-
     h1 {
       font-size: 2.6em;
     }
@@ -1066,13 +1071,13 @@ footer {
     }
 
     a {
-      margin: 60px auto 0 auto;
+      margin: 60px auto 0;
       display: block;
       width: 150px;
       background-color: $white;
       color: $brand-gray;
       padding: 10px 0;
-      font-size: .8em;
+      font-size: 0.8em;
       text-decoration: none;
       font-weight: 700;
       text-transform: uppercase;
@@ -1081,7 +1086,6 @@ footer {
   }
 
   .contact {
-
     h1 {
       font-size: 2.6em;
     }
@@ -1091,7 +1095,7 @@ footer {
     }
 
     .email-link {
-      font-size: .9em;
+      font-size: 0.9em;
     }
   }
 
@@ -1100,13 +1104,11 @@ footer {
     margin: 50px 2.5%;
 
     ul {
-
       li {
         list-style-type: none;
         margin: 20px 0;
         font-size: 1em;
         font-family: 'Open Sans', sans-serif;
-
 
         img {
           width: 20px;
@@ -1138,14 +1140,13 @@ footer {
   }
 
   .tabs {
-
     ul {
       flex-direction: row;
       padding-bottom: 10px;
 
       li {
-        font-size: .8em;
-        letter-spacing: .5px;
+        font-size: 0.8em;
+        letter-spacing: 0.5px;
         margin: 0 2px;
         width: 20%;
       }
@@ -1153,7 +1154,7 @@ footer {
   }
 
   .pre-menu-info {
-    padding: 50px 5% 20px 5%;
+    padding: 50px 5% 20px;
 
     h2 {
       font-size: 1.2em;
@@ -1165,17 +1166,13 @@ footer {
     }
   }
 }
-
 @media screen and (min-width: 800px) {
-
   .nav-bar {
     width: 75%;
     padding: 0 12.5%;
 
     ul {
-
       li {
-
         a {
           letter-spacing: 3px;
         }
@@ -1183,15 +1180,13 @@ footer {
     }
 
     .logo {
-
       svg {
         width: 120px;
       }
     }
-}
+  }
 
   header {
-
     h1 {
       padding-top: 70px;
       font-size: 4em;
@@ -1203,14 +1198,13 @@ footer {
     }
 
     .menu-link {
-      font-size: .8em;
+      font-size: 0.8em;
       letter-spacing: 2px;
       font-weight: 700;
     }
   }
 
   .event-background {
-
     img {
       width: 150%;
     }
@@ -1247,7 +1241,7 @@ footer {
   }
 
   .link-to-menu {
-    font-size: .8em;
+    font-size: 0.8em;
     letter-spacing: 2px;
     font-weight: 700;
   }
@@ -1261,7 +1255,7 @@ footer {
 
     .email-link {
       letter-spacing: 3px;
-      font-size: .8em;
+      font-size: 0.8em;
     }
   }
 
@@ -1277,7 +1271,6 @@ footer {
       border-top: none;
 
       li {
-
         img {
           width: 15px;
         }
@@ -1286,7 +1279,6 @@ footer {
   }
 
   footer {
-
     .to-top {
       font-size: 2em;
       margin-bottom: 20px;
@@ -1294,25 +1286,21 @@ footer {
   }
 
   .tabs {
-
     ul {
       flex-direction: row;
       padding-bottom: 10px;
 
       li {
-        font-size: .8em;
-        letter-spacing: .5px;
+        font-size: 0.8em;
+        letter-spacing: 0.5px;
         margin: 0 2px;
         width: 15%;
       }
     }
   }
 }
-
 @media screen and (min-width: 900px) {
-
   .event-background {
-
     img {
       width: 100%;
     }
@@ -1390,11 +1378,8 @@ footer {
       display: inline-block;
     }
   }
-
 }
-
 @media screen and (min-width: 1000px) {
-
   .hours {
     width: 90%;
     padding: 70px 5%;
@@ -1405,7 +1390,7 @@ footer {
     }
 
     h3 {
-      font-size: .8em;
+      font-size: 0.8em;
       font-weight: 300;
       letter-spacing: 1px;
     }
@@ -1415,7 +1400,6 @@ footer {
       padding: 80px 0;
       display: flex;
       flex-direction: row;
-
 
       li {
         display: flex;
@@ -1441,12 +1425,12 @@ footer {
       }
 
       span.letter-second {
-        font-size: .7em;
+        font-size: 0.7em;
         margin: 2px 0;
       }
 
       span.letter-third {
-        font-size: .5em;
+        font-size: 0.5em;
         margin: 2px 0;
       }
 
@@ -1454,7 +1438,7 @@ footer {
         margin: 40px 0;
         display: flex;
         flex-direction: column;
-        font-size: .6em;
+        font-size: 0.6em;
         font-weight: 400;
         font-family: 'Open Sans', sans-serif;
       }
@@ -1486,7 +1470,7 @@ footer {
         text-transform: uppercase;
         letter-spacing: 2px;
         color: $brand-op-gray;
-        margin: 0 0 10px 0;
+        margin: 0 0 10px;
         font-size: 2.6em;
         text-align: left;
       }
@@ -1497,7 +1481,7 @@ footer {
 
       p {
         margin: 30px 0;
-        font-size: .9em;
+        font-size: 0.9em;
         line-height: 200%;
         font-weight: 400;
         font-family: 'Open Sans', sans-serif;
@@ -1516,18 +1500,243 @@ footer {
       }
     }
   }
-
 }
-
-
 @media screen and (min-width: 2500px) {
-
   .event-background {
-
     img {
       max-width: 150%;
       max-height: 100vh;
     }
   }
+}
 
+
+
+
+// Full List Events Page
+#events-calendar-page {
+  background-color: $white;
+
+  h3.cursive {
+    text-align: center;
+    font-size: 2.5em;
+  }
+
+  .title-seperator {
+    margin: 10px auto 20px;
+  }
+
+  #events-page-header {
+    width: 90%;
+    padding: 115px 5% 70px;
+    background-color: $white;
+  }
+
+  #constant-events-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .constant-events {
+    padding: 20px 0 0;
+
+    h3,
+    h4 {
+      text-align: center;
+    }
+
+    h3 {
+      text-transform: uppercase;
+      font-size: 1.5em;
+      margin: 5px 0;
+    }
+
+    h4 {
+      margin: 0;
+      font-weight: 300;
+      font-size: 1.2em;
+      color: $header-op;
+    }
+  }
+
+  // Container that holds all events
+  #event-listing-container {
+    width: 100%;
+    padding: 50px 0;
+    // Fixed background while scrolling
+    background-image: url('../img/event-list-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+  }
+
+  #event-listing-flex-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .listing-card {
+    background-color: $white;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .listing-card:nth-child(even) {
+    background-color: $light-gray;
+  }
+
+  .listing-image {
+    width: 22.5%;
+    height: 100%;
+    margin-right: 20px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .listing-content {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    h4 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: .8em;
+      margin: 0;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: $header-op;
+    }
+
+    h3 {
+      margin: 0;
+      font-size: 2em;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1em;
+      margin: 10px 0;
+    }
+  }
+
+  .listing-info {
+    width: 100%;
+  }
+
+  .listing-links {
+    padding-bottom: 10px;
+    width: 100%;
+
+    a {
+      color: $header-op;
+      margin: 0 10px 0 0;
+      padding: 5px 0;
+      font-family: 'Open Sans', sans-serif;
+      font-size: .9em;
+    }
+
+    border-bottom: 2px solid $tab-border;
+  }
+
+  .listing-date-time {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px 0;
+    p, i {
+      display: inline-block;
+    }
+
+    p {
+      font-size: .8em;
+      margin-left: 2px;
+      text-transform: uppercase;
+      color: $header-op;
+      font-weight: 600;
+    }
+
+    svg path {
+      fill: $brand-green;
+    }
+  }
+}
+
+@media screen and (min-width: 450px) {
+  #events-calendar-page {
+
+    .listing-date-time {
+      flex-direction: row;
+
+      .listing-time {
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 700px) {
+  #events-calendar-page {
+
+    h3.cursive {
+      font-size: 3em;
+    }
+
+    #events-page-header {
+      padding: 100px 5% 20px 5%;
+    }
+
+    #constant-events-wrapper {
+      flex-direction: row;
+    }
+    .constant-events {
+      padding: 0 30px 0 30px;
+    }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #events-calendar-page {
+
+    #event-listing-container {
+      padding: 100px 0;
+    }
+
+    .listing-title {
+      padding-top: 10px;
+    }
+
+    .listing-card {
+      width: 700px;
+      height: 215px;
+    }
+
+    .listing-image {
+      width: auto;
+      height: 100%;
+      position: relative;
+
+      img {
+        width: auto;
+        height: 100%;
+      }
+    }
+
+    .listing-date-time {
+      padding: 5px 0 0 0;
+    }
+  }
 }
