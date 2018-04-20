@@ -258,6 +258,15 @@ header {
   }
 }
 
+.multi-button-flex-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.events-calendar-page-link {
+  margin-top: 15px;
+}
+
 .hours {
   width: 95%;
   padding: 50px 2.5%;
@@ -958,6 +967,14 @@ footer {
   }
 }
 @media screen and (min-width: 350px) {
+  .multi-button-flex-wrapper {
+    flex-direction: row;
+  }
+
+  .events-calendar-page-link {
+    margin-top: 0;
+    margin-left: 15px;
+  }
   .tabs {
     ul {
       flex-direction: row;
@@ -1530,6 +1547,13 @@ footer {
     width: 90%;
     padding: 115px 5% 70px;
     background-color: $white;
+
+    h3.constant-event-info {
+      text-transform: uppercase;
+      font-size: 1.5em;
+      margin: 10px 0;
+      text-align: center;
+    }
   }
 
   #constant-events-wrapper {
