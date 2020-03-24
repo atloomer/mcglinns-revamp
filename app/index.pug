@@ -28,7 +28,8 @@ html
           li
             a.mobile-links.smoothScroll(href="#home") Home
           li
-            a.mobile-links.smoothScroll(href="https://mcglinns.com/menu.html") Menu
+            a.mobile-links.smoothScrollspan.menu-link(data-glf-cuid='0dc0d355-c136-470e-b539-9e390fb151c0', data-glf-ruid='efc284e9-9b5a-4f02-a14f-284dc0e27bf8') Menu
+            script(src='https://www.fbgcdn.com/embedder/js/ewm2.js', defer='', async='')
           li
             a.mobile-links.smoothScroll(href="#about") About
           li
@@ -47,7 +48,7 @@ html
           li
             a.smoothScroll(href="#home") Home
           li
-            a.smoothScroll(href="https://mcglinns.com/menu.html") Menu
+            a.smoothScroll(data-glf-cuid='0dc0d355-c136-470e-b539-9e390fb151c0', data-glf-ruid='efc284e9-9b5a-4f02-a14f-284dc0e27bf8') Menu
           li
             a.smoothScroll(href="#about") About
           li
@@ -64,55 +65,68 @@ html
       p 111 ORONDO AVE, WENATCHEE, WA
       a.tele(href="tel:509-663-9073")  509.663.9073
       .multi-button-flex-wrapper
-        a.menu-link(href="menu.html") View Menu
+        //- a.menu-link(href="menu.html") View Menu
+        span.menu-link(data-glf-cuid='0dc0d355-c136-470e-b539-9e390fb151c0', data-glf-ruid='efc284e9-9b5a-4f02-a14f-284dc0e27bf8')  See MENU &amp; Order
+        script(src='https://www.fbgcdn.com/embedder/js/ewm2.js', defer='', async='')
         //- a.menu-link.events-calendar-page-link(href="calendar.html") Music Calendar
-    .featured-items-section
-      .featured-items-flex-container
-        .happy-hour-featured
-          h1  Happy Hour Monday - Friday 2:30 - 5:30PM
-          .title-seperator
-          img(src="img/happyHour-featured.jpg")
-          ul.featured-item-section-ul
-            li
-              .featured-item-name
-                h4  $10 for Any Pizza
-            li
-              .featured-item-name
-                h4  $6 Wine Slushies
-            li
-              .featured-item-name
-                h4  $1 Off All Pints of Craft Beers/Ciders
-            li
-              .featured-item-name
-                h4  $1 Off All Wine Glass Pours
-        .happy-hour-featured
-          h1  Comfort Food Thursdays
-          .title-seperator
-          img(src="img/menu-featured.jpg")
-          ul.featured-item-section-ul
-            li
-              .featured-item-name
-                h4  $14.95 Pot Roast with Roasted Carrots and Potatoes, Beer Bread, and Sauteed Kale
+    //- .featured-items-section
+    //-   .featured-items-flex-container
+    //-     .happy-hour-featured
+    //-       h1  Happy Hour Monday - Friday 2:30 - 5:30PM
+    //-       .title-seperator
+    //-       img(src="img/happyHour-featured.jpg")
+    //-       ul.featured-item-section-ul
+    //-         li
+    //-           .featured-item-name
+    //-             h4  $10 for Any Pizza
+    //-         li
+    //-           .featured-item-name
+    //-             h4  $6 Wine Slushies
+    //-         li
+    //-           .featured-item-name
+    //-             h4  $1 Off All Pints of Craft Beers/Ciders
+    //-         li
+    //-           .featured-item-name
+    //-             h4  $1 Off All Wine Glass Pours
+    //-     .happy-hour-featured
+    //-       h1  Comfort Food Thursdays
+    //-       .title-seperator
+    //-       img(src="img/menu-featured.jpg")
+    //-       ul.featured-item-section-ul
+    //-         li
+    //-           .featured-item-name
+    //-             h4  $14.95 Pot Roast with Roasted Carrots and Potatoes, Beer Bread, and Sauteed Kale
     a(name="hours")
     .hours
       h1 Kitchen hours
       .title-seperator
-      h3 BREAKFAST SATURDAYS AND SUDAYS FROM 8AM TO 11AM
+      h3 We are open for curbside pickup from 11:30am - 8pm daily.
       ul
-        li  s#[span.letter-second u]#[span.letter-third n]#[span.hours-op 8:00am#[span.right-arrow &#xbb;]10:00pm]
-          p.close-at  Close at 11:00pm
-        li  m#[span.letter-second o]#[span.letter-third n]#[span.hours-op 11:00am#[span.right-arrow &#xbb;]10:00pm]
-          p.close-at  Close at 11:00pm
-        li  t#[span.letter-second u]#[span.letter-third e]#[span.hours-op 11:00am#[span.right-arrow &#xbb;]10:00pm]
-          p.close-at  Close at 11:00pm
-        li  w#[span.letter-second e]#[span.letter-third d]#[span.hours-op 11:00am#[span.right-arrow &#xbb;]10:00pm]
-          p.close-at  Close at 11:00pm
-        li  t#[span.letter-second h]#[span.letter-third u]#[span.hours-op 11:00am#[span.right-arrow &#xbb;]10:00pm]
-          p.close-at  Close at 11:00pm
-        li  f#[span.letter-second r]#[span.letter-third i]#[span.hours-op 11:00am#[span.right-arrow &#xbb;]10:30pm]
-          p.close-at  Close at Midnight
-        li  s#[span.letter-second a]#[span.letter-third t]#[span.hours-op 8:00am#[span.right-arrow &#xbb;]10:30pm]
-          p.close-at  Close at Midnight
+        li  s#[span.letter-second u]#[span.letter-third n]#[span.hours-op 11:30am#[span.right-arrow &#xbb;]8:00pm]
+        li  m#[span.letter-second o]#[span.letter-third n]#[span.hours-op 11:30am#[span.right-arrow &#xbb;]8:00pm]
+        li  t#[span.letter-second u]#[span.letter-third e]#[span.hours-op 11:30am#[span.right-arrow &#xbb;]8:00pm]
+        li  w#[span.letter-second e]#[span.letter-third d]#[span.hours-op 11:30am#[span.right-arrow &#xbb;]8:00pm]
+        li  t#[span.letter-second h]#[span.letter-third u]#[span.hours-op 11:30am#[span.right-arrow &#xbb;]8:00pm]
+        li  f#[span.letter-second r]#[span.letter-third i]#[span.hours-op 11:30am#[span.right-arrow &#xbb;]8:00pm]
+        li  s#[span.letter-second a]#[span.letter-third t]#[span.hours-op 11:30am#[span.right-arrow &#xbb;]8:00pm]
+      //- h1 Kitchen hours
+      //- .title-seperator
+      //- h3 BREAKFAST SATURDAYS AND SUDAYS FROM 8AM TO 11AM
+      //- ul
+      //-   li  s#[span.letter-second u]#[span.letter-third n]#[span.hours-op 8:00am#[span.right-arrow &#xbb;]10:00pm]
+      //-     p.close-at  Close at 11:00pm
+      //-   li  m#[span.letter-second o]#[span.letter-third n]#[span.hours-op 11:00am#[span.right-arrow &#xbb;]10:00pm]
+      //-     p.close-at  Close at 11:00pm
+      //-   li  t#[span.letter-second u]#[span.letter-third e]#[span.hours-op 11:00am#[span.right-arrow &#xbb;]10:00pm]
+      //-     p.close-at  Close at 11:00pm
+      //-   li  w#[span.letter-second e]#[span.letter-third d]#[span.hours-op 11:00am#[span.right-arrow &#xbb;]10:00pm]
+      //-     p.close-at  Close at 11:00pm
+      //-   li  t#[span.letter-second h]#[span.letter-third u]#[span.hours-op 11:00am#[span.right-arrow &#xbb;]10:00pm]
+      //-     p.close-at  Close at 11:00pm
+      //-   li  f#[span.letter-second r]#[span.letter-third i]#[span.hours-op 11:00am#[span.right-arrow &#xbb;]10:30pm]
+      //-     p.close-at  Close at Midnight
+      //-   li  s#[span.letter-second a]#[span.letter-third t]#[span.hours-op 8:00am#[span.right-arrow &#xbb;]10:30pm]
+      //-     p.close-at  Close at Midnight
     a(name="about")
     .about(class="scrollme")
       figure(class="animateme" data-when="enter" data-from="1" data-to="0" data-translatex="-80" easing="easein")
@@ -229,7 +243,7 @@ html
           img(src="img/sweets.jpg" class="animateme" data-when="enter" data-from=".5" data-to="0" data-opacity="0")
         a.chocolat-image(href="img/ribs.jpg" alt="McGlinn's Food" title="Half Rack Ribs")
           img(src="img/ribs.jpg" class="animateme" data-when="enter" data-from=".5" data-to="0" data-opacity="0")
-      a.link-to-menu(href="menu.html")  View Menu
+      a.link-to-menu(data-glf-cuid='0dc0d355-c136-470e-b539-9e390fb151c0', data-glf-ruid='efc284e9-9b5a-4f02-a14f-284dc0e27bf8')  View Menu &amp; Order
   .gift-card-check
     h3.cursive  Gift Card Balance
     h1  Wondering how much is on your gift card?
